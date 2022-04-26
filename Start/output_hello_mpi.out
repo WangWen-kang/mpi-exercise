@@ -1,35 +1,67 @@
 ================================================================================
-JobID = 11956871
+JobID = 11957236
 User = hpctraining18, Account = all
 Partition = medium, Nodelist = amp002
 ================================================================================
-20 5 amp002
-20 7 amp002
-20 8 amp002
-20 13 amp002
-20 3 amp002
-20 6 amp002
-20 9 amp002
-20 14 amp002
-20 12 amp002
-20 16 amp002
-20 17 amp002
-20 18 amp002
-20 2 amp002
-20 11 amp002
-20 0 amp002
-20 10 amp002
-20 19 amp002
-20 4 amp002
-20 15 amp002
-20 1 amp002
+task 3  found 0 divisors
+time -1e-09
+task 7  found 0 divisors
+time -1e-09
+task 10  found 0 divisors
+time -1e-09
+16  :  19
+16  :  139
+task 16  found 2 divisors
+time -1e-09
+2  :  5
+2  :  45
+2  :  285
+task 2  found 3 divisors
+time -1e-09
+task 4  found 0 divisors
+time -1e-09
+task 5  found 0 divisors
+time -1e-09
+6  :  9
+task 6  found 1 divisors
+time -1e-09
+8  :  171
+task 8  found 1 divisors
+time -1e-09
+task 9  found 0 divisors
+time -1e-09
+task 11  found 0 divisors
+time -1e-09
+12  :  15
+12  :  95
+task 12  found 2 divisors
+time -1e-09
+task 13  found 0 divisors
+time -1e-09
+14  :  57
+task 14  found 1 divisors
+time -1e-09
+task 15  found 0 divisors
+time -1e-09
+task 17  found 0 divisors
+time -1e-09
+task 18  found 0 divisors
+time -1e-09
+task 19  found 0 divisors
+time -1e-09
+primnumber test for  118845
+0  :  3
+task 0  found 1 divisors
+time -1e-09
+task 1  found 0 divisors
+time -1e-09
 ============ Job Information ===================================================
-Submitted: 2022-04-26T13:20:48
-Started: 2022-04-26T13:20:48
-Ended: 2022-04-26T13:20:51
+Submitted: 2022-04-26T14:08:06
+Started: 2022-04-26T14:08:07
+Ended: 2022-04-26T14:08:10
 Elapsed: 1 min, Limit: 10 min, Difference: 9 min
 CPUs: 40, Nodes: 1
 ============= ProfiT-HPC =======================================================
 To generate the ProfiT-HPC text report, run the following command
-profit-hpc 11956871
+profit-hpc 11957236
 ================================================================================

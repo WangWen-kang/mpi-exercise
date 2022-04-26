@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -t 00:10:00
+#SBATCH -N 1
+#SBATCH -o output_hello_mpi.out
+#SBATCH --ntasks-per-node 20
+#SBATCH --cpus-per-task 2
+#SBATCH -p medium
+#SBATCH --reservation pchpc-course
+
+mpirun python ./prime_mpi.py 
+
