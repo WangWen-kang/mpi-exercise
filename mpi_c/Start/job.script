@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH -t 00:10:00
+#SBATCH -N 2
+#SBATCH --ntasks-per-node 2
+#SBATCH -p medium
+#SBATCH --reservation pchpc-course
+
+mpirun ./hello_mpi.exe 

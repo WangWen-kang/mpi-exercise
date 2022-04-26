@@ -1,0 +1,22 @@
+from mpi4py import MPI
+import math
+import time
+import numpy as np
+from dist_index import dist_index 
+
+comm = MPI.COMM_WORLD
+nproc= comm.Get_size()
+myid = comm.Get_rank()
+
+def global_vector(n,y):
+   firstind = dist_index(n)
+   nl = firstind[myid+1] - firstind[myid]
+   x = np.zeros(n)
+   ia = firstind[myid]
+   ie = firstind[myid+1]
+   x[ia:ie] = y
+   for ip in range(nproc):
+      ia = firstind[ip]
+      ie = firstind[ip+1]
+      comm.Bcast(x[ia:ie],root = ip) 
+   return x
